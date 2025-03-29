@@ -20,3 +20,4 @@ git log 查看commit提交情况到本地仓库的情况
 git reset --hard commitID #回退到某个版本  
 git reflog # 记录所有操作  
 创建.gitignore 文件，里面备注不需要git管理的文件名，只填文件名即可，git就不会管理这些文件  
+test
