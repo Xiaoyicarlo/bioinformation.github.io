@@ -1,5 +1,5 @@
 git add 此处接文件或文件名，不用引号 （此处文件名换成 "." 或 * ，则代表整个文件都进行同步）  
-git commit -m 此处填一个备注，即做了什么 （自定义文件名，但必须要有内容）  
+git commit -m 此处填一个备注，即描述做了什么 （自定义文件名，但必须要有内容）  
 git push origin main (可以只输入git push)  
 句子后紧跟着两个空格，默认换行  
 ### git工作原理  
@@ -17,3 +17,8 @@ git push origin main (可以只输入git push)
 ![alt text](image-2.png)  
 git add (工作区 --> 暂存区)  
 git commit (暂存区 --> 本地仓库)  
+git log 查看commit提交情况到本地仓库的情况  
+git reset --hard commitID #回退到某个版本  
+git reflog # 记录所有操作  
+创建.gitignore 文件，里面备注不需要git管理的文件名，只填文件名即可，git就不会管理这些文件  
+![alt text](image-3.png)  
